@@ -1,0 +1,15 @@
+.question-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.question-header__badges {
+  display: flex;
+  gap: var(--space-xs);
+}
+
+.question-header__title {
+  font-size: var(--font-size-xl);
+  color: var(--color-text);
+}

@@ -1,0 +1,28 @@
+.quiz-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: var(--space-md);
+}
+
+.quiz-page__card {
+  width: 100%;
+  max-width: 500px;
+}
+
+.quiz-page__game {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.quiz-page__title {
+  font-size: var(--font-size-xl);
+  color: var(--color-text);
+}
+
+.quiz-page__action {
+  display: flex;
+  justify-content: flex-end;
+}

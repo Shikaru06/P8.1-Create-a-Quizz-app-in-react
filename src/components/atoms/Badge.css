@@ -1,0 +1,8 @@
+.badge {
+  display: inline-block;
+  padding: var(--space-sm);
+  font-size: var(--font-size-sm);
+  color: var(--color-primary);
+  background-color: var(--color-primary-soft);
+  border-radius: var(--radius-full);
+}

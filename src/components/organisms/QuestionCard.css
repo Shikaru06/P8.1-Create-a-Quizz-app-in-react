@@ -1,0 +1,21 @@
+.question-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  padding: var(--space-lg);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow);
+}
+
+.question-card__answers {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.question-card__feedback {
+  font-size: var(--font-size-md);
+  color: var(--color-text);
+}
